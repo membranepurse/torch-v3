@@ -28,7 +28,6 @@ const Login = ({ login, isAuthenticated }) => {
   return (
     <Fragment>
     <div className="container">
-      <div className="login">
         <h1 className="large-font text-primary">Sign In</h1>
           <p className="lead"><i className="fas fa-user"></i> Sign Into Your Account</p>
           <form className="form" onSubmit={e => onSubmit(e)} >
@@ -52,10 +51,6 @@ const Login = ({ login, isAuthenticated }) => {
             Dont have an account? <Link to="/register">Sign Up</Link>
           </p>
       </div>
-
-
-
-    </div>
 
 
 
